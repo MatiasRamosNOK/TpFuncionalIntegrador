@@ -1,0 +1,36 @@
+{
+  "name": "currify-elm",
+  "version": "1.0.0",
+  "description": "tp integrador funcional pdep-lunes",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "lodash.uniqby": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash.uniqby": "^4.7.6",
+    "create-elm-app": "^3.0.8"
+  },
+  "scripts": {
+    "start": "elm-app start",
+    "build": "elm-app build",
+    "build-db": "tsc -p ./json-server/ & node ./json-server/fetch-data.js",
+    "fetch-songs": "tsc -p ./json-server/ & node ./json-server/fetch-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdep-lunes/currify-elm.git"
+  },
+  "keywords": [
+    "elm",
+    "pdep",
+    "funcional",
+    "haskell",
+    "web",
+    "spotify",
+    "music",
+    "utn"
+  ],
+  "license": "ISC"
+}
